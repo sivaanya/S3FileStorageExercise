@@ -1,0 +1,20 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secret-key:
+    region:
+      static: ap-south-1
+    Stack:
+      auto: false
+
+
+application:
+  bucket:
+    name: springbootstorage
+    # create a bucket with above mentioned name before running this application
+
+server:
+  port: 9090
+
+
